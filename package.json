@@ -1,0 +1,20 @@
+{
+  "name": "dressupadapterserver",
+  "version": "1.0.0",
+  "description": "Adapter Server for DressUp mobile application in order to upload and fetch images from ClippingMagic.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehroz Muzaffar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "ip": "^1.1.8",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
+}
